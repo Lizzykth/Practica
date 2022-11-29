@@ -1,0 +1,448 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+    
+}
+ body {
+    background-color: white;
+    font-family: 'Kalam', cursive;
+    margin: auto;
+
+    margin-bottom: 20px;
+
+  }
+.header img{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.contenedor{
+width: 90%;
+max-width: 10 00px;
+overflow-wrap: normal;
+margin: auto;
+padding: 60px;
+word-break: normal;
+
+}
+.header{
+    width: 100%;
+    margin: 0px;
+    height:  740px;
+    background: hsla(210, 29%, 24%, 0.67);   
+    background: -webkit-linear-gradient(to right, hsla(188, 39%, 49%, 0.682), hsla(210, 29%, 24%, 0.648)), url(ademas_de_mi.jpeg); 
+    background: linear-gradient(to right, hsla(188, 39%, 49%, 0.682), hsla(210, 29%, 24%, 0.648)), url(ademas_de_mi.jpeg);
+    background-size: cover ;
+    background-attachment: fixed ;
+    position:  relative;
+} 
+div{
+    margin:auto ;
+    padding: 0px ;
+
+}
+section{
+    margin:auto ;
+    padding: 0px;
+}
+h1 {
+    text-align: center;
+    text-decoration-color: antiquewhite ;
+    font-weight: 500;
+
+}
+p.intro {
+    text-transform: none;
+    font-style: normal;
+    color: rgb(108, 116, 132);
+    word-break: normal;
+    overflow-wrap: normal;
+    padding: 60px;
+}
+
+h2, h3, h4{
+    color: #1f363e;
+    font-weight: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h3{
+    margin-top: -122px;
+
+}
+header{
+    width: 100%;
+    height: 90px;
+    background-color:#66156f ;
+}
+nav{ 
+    float: right;
+    display: flex;
+    align-items: center;
+    min-height: 90px;
+    padding: 30px 50px 0 0;
+    text-align: right;
+    
+}
+nav > a{
+    color: #ffffff;
+    font-weight: 300;
+    text-decoration:none ;
+    margin-right: 20px;
+}
+nav ul{
+    list-style: none;
+    padding: 0px 50px
+}
+nav ul li{
+    display: inline-block;
+    position: relative;
+  
+}
+nav ul li:hover{
+   color: #056385;
+   
+  
+}
+nav ul li a{
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px 10px;
+    text-decoration: none;
+
+
+}
+nav ul li a:hover{
+    color: #f0fafb;
+    
+}
+.contenedor_head{
+position: absolute;
+bottom: 0;
+width: 100% ;
+}
+.contenedor{
+    padding: 60px 0;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+}
+.Top{
+    width: 20%;
+    float: left;
+}
+.banner_1{
+    width: 100% ;
+    background: hsla(190, 44%, 73%, 0.826);
+    padding-top:-70px ;
+    padding-left: 30px;
+    padding-right: 72px;
+    padding-bottom: 14px;
+    margin: auto;
+    text-align: center ;
+}
+.banner_1 h3{
+     color: gray;
+     font-size: 32px ;
+}
+a {
+    font-size: 12pt;
+
+}
+.row{
+    width: 100%;
+    margin: auto;
+    padding-top:30px ;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    text-align: center ;
+}
+.noticias{
+    width: 100%;
+    margin: auto;
+    padding-top:30px ;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    text-align: center ;
+}
+header.banner_2{
+    display: block;
+   box-sizing: border-box;
+}
+img.info  {
+    display:block;
+    display:inline-block;
+    line-height:0;
+
+}
+.titulo{
+ color: rgb(48, 45, 143);
+  font-size: 30px;
+  text-align: center ;
+  margin-bottom: 60px ;
+}
+header.textos{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.textos h1{
+    font-size: 50px;
+    color: #f0fafb;
+}
+.textos h2{
+    font-size: 50px;
+    color: #f0fafb;
+    padding: 20px;
+
+}
+.info {
+    font-size: 30px;
+    font-weight: 300;
+    color:rgb(234, 212, 212);
+    padding-left: 1px;
+    margin-top: 21px;
+}
+.quienes_somos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -100px;
+}
+div.quienes_somos{
+    display:inline-block;
+    width: 250px;
+    height: 1148px;
+    padding: 30px;  
+}
+div.izquierda{
+    width:250px;
+    height:150px;
+    position:relative;
+}
+ul.lista{
+    padding: 20px;
+}
+div.info{
+    display: contents;
+    justify-content: space-between;
+}
+img.principal{
+    display:block;
+    display:inline-block;
+    line-height:0;
+    margin: 30px ;
+}
+div.info{
+    margin-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+} 
+div.mini_info {
+    margin-bottom: 55px;
+    padding-left: 55px;
+    padding-right: 55px;
+
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.img-responsive {
+    display: block;
+    height: auto;
+}
+.img-responsive, .img-thumbnail, .table, label {
+    max-width: 100%;
+}
+.lista{
+    margin-top: 19px;
+}
+footer{
+    text-decoration: none;
+    width:100% ;
+    height: 70px;
+    padding-top: 40px;
+    background-color: #056385;
+    position: absolute;
+
+}
+.contactos{
+    justify-content: space-between;
+    background-color: #1f363e;
+    z-index: 100;
+}
+.footer .contactos{
+    display: flex;
+    position: relative;
+
+}
+div.social{
+
+    display: inline-block;
+    position: relative;
+}
+div.info p{
+    text-transform: none;
+    font-style: small;
+    font-size: 19px;
+    color: rgb(27, 27, 27);
+    word-break: normal;
+    overflow-wrap: normal;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align:justify;
+
+
+}
+img.entre{
+    display: block;
+    height: auto;
+    padding-top: 10px;
+}
+img.comienzo{
+    display: block;
+    height: auto;
+   margin: 0 0;
+}
+.contenedor_musica{
+    display:  flex;
+    justify-content: space-evenly;
+}
+.fotos_artistas {
+    background: #f2f2f2;
+}
+.galeria_artistas{
+    display:flex ;
+    justify-content:  space-evenly;
+    flex-wrap: wrap ;
+}
+.imagen-port{
+    width: 24%;
+    margin-bottom:  10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0,0,0, .5 );
+}
+.imagen-port > img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+footer{
+    background: #4b829464;
+    padding: 10px 0 42px 20px ;
+    margin: auto;
+    overflow: hidden;
+    
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #1f363e;
+    
+}
+footer h4{
+    padding-left: 40px;
+    padding-top: 10px;
+    text-align: center;
+
+}
+div.mini_info{
+   text-transform: none;
+    font-size: 19px;
+    color: rgb(27, 27, 27);
+    word-break: normal;
+    overflow-wrap: normal;
+    padding: 10px;
+    padding-left: 60px; 
+}
+div.info h2{
+    text-transform: none;
+    font-style: normal;
+    word-break: normal;
+    overflow-wrap: normal;
+    padding: 30px;
+}
+div.notice{
+   text-transform: none; 
+   font-size: 19px;
+   color: rgb(27, 27, 27);
+   word-break: normal;
+   overflow-wrap: normal;
+   padding: 10px;
+   padding-left: 60px; 
+
+}
+span{
+   text-transform: none; 
+}
+.Premiaciones {
+    background: #f2f2f2;
+}
+.galeria_premiacion{
+    display:flex ;
+    justify-content:  space-evenly;
+    flex-wrap: wrap ;
+}
+.fotos-port{
+    width: 24%;
+    margin-bottom:  10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0,0,0, .5 );
+}
+.fotos-port > img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+div.premios h2{
+    padding-left: 660px;
+}
+article.tabla{
+    padding-left: 170px;
+}
+.registro{
+    width: 55%;
+    height: 5708x;
+    background-color:  #f2f2f2;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 350px;
+    margin-bottom: 50px;
+}
+form{
+    padding-left: 60px;
+}
+.mas-vistos {
+    background: #f2f2f2;
+}
+.contenedor-video{
+    display:flex ;
+    justify-content:center;
+    flex-wrap: wrap ;
+}
+
+.videitos > iframe{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
